@@ -7,9 +7,9 @@
 
 import Foundation
 import UIKit
-import SwipyCell
+import SwipeCellKit
 
-class MemoItemCell: UITableViewCell {
+class MemoItemCell: SwipeTableViewCell {
     
     @IBOutlet var checkBtn: UIButton!
     @IBOutlet var contentLabel: UILabel!
